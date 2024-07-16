@@ -1,7 +1,3 @@
-Here's a README file template in English for the provided HTML page:
-
----
-
 # GitHub Repository Search
 
 This project is a simple HTML page that allows you to search for GitHub repositories using the GitHub API and display them in an interactive dropdown using the Select2 plugin.
