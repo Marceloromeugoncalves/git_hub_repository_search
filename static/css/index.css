@@ -1,0 +1,105 @@
+.select2-result-repository {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+}
+
+.select2-result-repository__avatar {
+    flex: 0 0 50px;
+    margin-right: 10px;
+}
+
+.select2-result-repository__avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.select2-result-repository__meta {
+    flex: 1;
+}
+
+.select2-result-repository__title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.select2-result-repository__description {
+    margin-top: 4px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.select2-result-repository__statistics {
+    display: flex;
+    margin-top: 10px;
+    color: white;
+}
+
+.select2-result-repository__statistics div {
+    margin-right: 15px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 45vh;
+    background-color: #343a40;
+    color: white;
+}
+
+.bi-github {
+    color: white;
+}
+
+/* Estilos personalizados para o select2 com bg-dark */
+.select2-container--default .select2-selection--single {
+    background-color: #343a40;
+    /* Cor de fundo do bg-dark */
+    color: #ffffff;
+    /* Cor do texto */
+    border-color: white;
+    /* Cor da borda */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #ffffff;
+    /* Cor do texto */
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #4c0bce;
+    /* Cor de fundo ao passar o mouse */
+    color: #ffffff;
+    /* Cor do texto ao passar o mouse */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    background-color: #343a40;
+    /* Cor de fundo da seta */
+}
+
+.select2-search__field {
+    background-color: #343a40;
+    color: white;
+}
+
+.select2-dropdown {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Estilo para garantir que o footer fique no fundo da página */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
