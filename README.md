@@ -40,7 +40,3 @@ This project is a simple HTML page that allows you to search for GitHub reposito
 Developed by Marcelo Romeu Gonçalves.
 
 &copy; 2024 MRG Solutions. All rights reserved.
-
----
-
-Feel free to customize and expand this README as needed to provide more details or specific instructions about your project.
